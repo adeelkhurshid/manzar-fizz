@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry Fizz Manzar | Premium Sparkling Beverage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Manzar</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#ingredients">Ingredients</a>
+        </div>
+        <a href="#buy" class="cta-btn btn-sm">Experience Now</a>
+    </nav>
+
+    <div class="canvas-container">
+        <canvas id="hero-lightpass"></canvas>
+    </div>
+
+    <!-- Floating parallax elements container, fixed to viewport -->
+    <div class="parallax-container" id="parallax-container">
+        <!-- Elements injected by JS -->
+    </div>
+
+    <main class="content-overlay">
+        <section class="section hero" id="hero">
+            <h1 class="hero-title">Strawberry<br><em>Fizz</em> Manzar</h1>
+            <p class="hero-subtitle">The apex of sparkling refreshment.</p>
+            <a href="#reveal" class="cta-btn cta-large mt-4">Discover the Essence</a>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </section>
+
+        <section class="section product-reveal" id="reveal">
+            <div class="reveal-text">
+                <h2 class="title">Zero Gravity<br>Pure Perfection.</h2>
+                <p>Every droplet engineered for extraordinary taste.</p>
+            </div>
+        </section>
+
+        <section class="section features" id="features">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Ruby Reserve</h3>
+                    <p>Infused with hand-picked strawberries from the highest altitudes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Crystal Fizz</h3>
+                    <p>Micro-carbonation that dances on the palate with extreme precision.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Mint Essence</h3>
+                    <p>A whisper of cold mint, extracted at absolute zero.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section ingredients" id="ingredients">
+            <h2 class="title text-center">Uncompromised<br>Ingredients</h2>
+            <div class="ingredient-labels">
+                <div class="label" style="top: 20%; left: 10%;">Wild Strawberries</div>
+                <div class="label" style="top: 50%; right: 10%;">Glacier Water</div>
+                <div class="label" style="top: 70%; left: 20%;">Alpine Mint</div>
+            </div>
+        </section>
+
+        <section class="section benefits" id="benefits">
+            <div class="stats-container">
+                <div class="stat">
+                    <span class="stat-num">0g</span>
+                    <span class="stat-desc">Sugar</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-desc">Natural</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">8K</span>
+                    <span class="stat-desc">Taste Profile</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta" id="buy">
+            <h2 class="title">Taste the<br>Future.</h2>
+            <a href="#" class="cta-btn cta-large mt-4 glow-effect">Acquire Now</a>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">Manzar</div>
+                <div class="footer-socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Awwwards</a>
+                </div>
+                <div class="newsletter">
+                    <input type="email" placeholder="Join the exclusive list">
+                    <button class="cta-btn btn-sm">Subscribe</button>
+                </div>
+            </div>
+            <div class="copyright">&copy; 2026 Strawberry Fizz Manzar. All rights reserved.</div>
+        </footer>
+    </main>
+
+    <!-- GSAP and ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
